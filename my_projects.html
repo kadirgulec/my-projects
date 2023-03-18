@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <link rel="stylesheet" href="my_projects.css" />
+    <script
+      src="https://kit.fontawesome.com/7eb4c75fff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="my_project.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navigation">
+          <a href="index.html"><i class="fa-solid fa-house"></i></a>
+          <h1>My Projects</h1>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      
+      <!-- <h1>My Projects</h1> -->
+      <div class="card_container">
+
+        <script>
+          /* title,infotext,image source, button link */
+          const evb = new projectbox("Kompetenz Kurs","I have learned a lot about HTML&CSS in this Course","https://evbtraining.de/wp-content/uploads/2021/03/evblogo.png","https://evbtraining.de/weiterbildung-in-dueren/");
+          evb.create();
+          
+          const acces = new projectbox("Accesibility", "In this Project i build a Form and tried to apply the Accesibility","https://www.minderest.com/sites/default/files/field/image/Minderes_blog_accessibility.png","/my_projects/freeCodeCamp_projects/Accessibility_freeCodeCamp/Accessibility.html");
+          acces.create();
+
+          const balance = new projectbox("Balance Sheet","I have made a Balance Sheet with HTML und CSS","https://www.freshbooks.com/wp-content/uploads/balance-sheet-template-by-freshbooks.jpg","/my_projects/freeCodeCamp_projects/BalanceSheet_freeCodeCamp/balance_scheet.html" );
+          balance.create();
+
+          const photoGallery = new projectbox("Photo Gallery", "I have made cats Photo Gallery with flexbox","https://cdn.vox-cdn.com/thumbor/e8Sd7mfbY52I_BqJ20DrACAFz80=/0x0:2560x1536/1400x788/filters:focal(1280x768:1281x769)/cdn.vox-cdn.com/uploads/chorus_asset/file/22438301/fake_cats.jpg","/my_projects/freeCodeCamp_projects/Flexbox_freeCodeCamp/flexbox.html");
+          photoGallery.create();
+
+          const artCss = new projectbox("Art with Css", "Paint with Css was really fun to do :)","https://uploads7.wikiart.org/images/pablo-picasso/guitar-1920-1.jpg!Large.jpg","/my_projects/freeCodeCamp_projects/picasso.freeCodeCamp/picasso.html")
+          artCss.create();
+
+          const calc= new projectbox("Calculator","I made a Calculator to see my Javascript knowledge. It was really funny and sometimes a challenged Project for someone like me, who learnes Javascript just for a week :)", "https://www.southwire.com/medias/sys_master/root/hc7/h56/8884064059422/calculatormedia.jpg","/my_projects/Taschenrechner/index.html");
+          calc.create();
+        </script>
+
+      </div>
+         
+    </div>
+      </div>
+    </div>
+  </body>
+</html>
