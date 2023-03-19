@@ -21,7 +21,7 @@ class projectbox{
               </p>
             </div>
 
-            <div class="button button${this.card}"><a href="${this.buttonlink}">Go to Project</a></div>
+            <div class="button button${this.card}"><a href="${this.buttonlink}" target="_blank">Go to Project</a></div>
           </div>
         </div>`
         card+=1;
